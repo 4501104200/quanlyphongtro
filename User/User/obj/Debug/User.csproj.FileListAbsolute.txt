@@ -1,0 +1,12 @@
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\bin\Debug\User.exe.config
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\bin\Debug\User.exe
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\bin\Debug\User.pdb
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.csprojAssemblyReference.cache
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.HoaDonHangHoa.resources
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.Properties.Resources.resources
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.csproj.GenerateResource.cache
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.csproj.CoreCompileInputs.cache
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.exe
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.pdb
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.DanhMucBanHang.resources
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\User\User\obj\Debug\User.ManHinhChinhUser.resources

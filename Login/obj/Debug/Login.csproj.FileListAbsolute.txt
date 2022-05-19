@@ -1,0 +1,11 @@
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\bin\Debug\Login.exe.config
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\bin\Debug\Login.exe
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\bin\Debug\Login.pdb
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\obj\Debug\Login.csprojAssemblyReference.cache
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\obj\Debug\Login.Login.resources
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\obj\Debug\Login.Properties.Resources.resources
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\obj\Debug\Login.register.resources
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\obj\Debug\Login.csproj.GenerateResource.cache
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\obj\Debug\Login.exe
+D:\4501104200-VŨ TRƯỜNG SƠN\C#\Github\sunflower-project\Login\obj\Debug\Login.pdb

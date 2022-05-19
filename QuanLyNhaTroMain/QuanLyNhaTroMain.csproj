@@ -1,0 +1,285 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD9C3E18-2D94-49C2-97A7-A2F6F3D14229}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyNhaTroMain</RootNamespace>
+    <AssemblyName>QuanLyNhaTroMain</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v21.1" />
+    <Reference Include="DevExpress.Data.v21.1" />
+    <Reference Include="DevExpress.Printing.v21.1.Core" />
+    <Reference Include="DevExpress.Data.Desktop.v21.1" />
+    <Reference Include="DevExpress.Utils.v21.1" />
+    <Reference Include="DevExpress.XtraBars.v21.1" />
+    <Reference Include="DevExpress.Sparkline.v21.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v21.1" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="formDeplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formDeplay.Designer.cs">
+      <DependentUpon>formDeplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formDkyPhongTrong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDkyPhongTrong.Designer.cs">
+      <DependentUpon>formDkyPhongTrong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDoanhThu.Designer.cs">
+      <DependentUpon>formDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDoiMatKhau.Designer.cs">
+      <DependentUpon>formDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formQuanLyDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuanLyDichVu.Designer.cs">
+      <DependentUpon>formQuanLyDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formQuanLyKhach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuanLyKhach.Designer.cs">
+      <DependentUpon>formQuanLyKhach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formQuanLyLoaiPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuanLyLoaiPhong.Designer.cs">
+      <DependentUpon>formQuanLyLoaiPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formQuanLyPhongTro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuanLyPhongTro.Designer.cs">
+      <DependentUpon>formQuanLyPhongTro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSapPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSapPhong.Designer.cs">
+      <DependentUpon>formSapPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTest.Designer.cs">
+      <DependentUpon>formTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formThanhToan.Designer.cs">
+      <DependentUpon>formThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formThemNguoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formThemNguoi.Designer.cs">
+      <DependentUpon>formThemNguoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formThemPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formThemPhong.Designer.cs">
+      <DependentUpon>formThemPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formThemTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formThemTaiKhoan.Designer.cs">
+      <DependentUpon>formThemTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formThongTinKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formThongTinKhachHang.Designer.cs">
+      <DependentUpon>formThongTinKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formThuTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formThuTien.Designer.cs">
+      <DependentUpon>formThuTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formTrangThaiThuePhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTrangThaiThuePhong.Designer.cs">
+      <DependentUpon>formTrangThaiThuePhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formTraPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTraPhong.Designer.cs">
+      <DependentUpon>formTraPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiaoDienAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiaoDienAdmin.Designer.cs">
+      <DependentUpon>GiaoDienAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoftwareInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoftwareInformation.Designer.cs">
+      <DependentUpon>SoftwareInformation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formDeplay.resx">
+      <DependentUpon>formDeplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDkyPhongTrong.resx">
+      <DependentUpon>formDkyPhongTrong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDoanhThu.resx">
+      <DependentUpon>formDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDoiMatKhau.resx">
+      <DependentUpon>formDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuanLyDichVu.resx">
+      <DependentUpon>formQuanLyDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuanLyKhach.resx">
+      <DependentUpon>formQuanLyKhach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuanLyLoaiPhong.resx">
+      <DependentUpon>formQuanLyLoaiPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuanLyPhongTro.resx">
+      <DependentUpon>formQuanLyPhongTro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSapPhong.resx">
+      <DependentUpon>formSapPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTest.resx">
+      <DependentUpon>formTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formThanhToan.resx">
+      <DependentUpon>formThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formThemNguoi.resx">
+      <DependentUpon>formThemNguoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formThemPhong.resx">
+      <DependentUpon>formThemPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formThemTaiKhoan.resx">
+      <DependentUpon>formThemTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formThongTinKhachHang.resx">
+      <DependentUpon>formThongTinKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formThuTien.resx">
+      <DependentUpon>formThuTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTrangThaiThuePhong.resx">
+      <DependentUpon>formTrangThaiThuePhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTraPhong.resx">
+      <DependentUpon>formTraPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiaoDienAdmin.resx">
+      <DependentUpon>GiaoDienAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SoftwareInformation.resx">
+      <DependentUpon>SoftwareInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\occho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
